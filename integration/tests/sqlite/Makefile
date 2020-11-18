@@ -13,8 +13,8 @@ run: 3.33.0
 	make -C create-table run
 	make -C not-null run
 	make -C not-null-with-default run
-	make -C primary-key-add run
-	make -C primary-key-drop run
+	# make -C primary-key-add run
+	# make -C primary-key-drop run
 		
 .PHONY: build
 build: docker-build
